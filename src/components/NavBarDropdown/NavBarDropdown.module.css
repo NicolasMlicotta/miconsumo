@@ -1,0 +1,23 @@
+.wrapper {
+  margin-block: 1.5rem;
+}
+
+.category {
+  display: flex;
+  align-items: center;
+  padding-left: 1.5rem;
+}
+.category:hover {
+  cursor: pointer;
+}
+h3 {
+  font-weight: 500;
+}
+.items {
+  list-style-type: none;
+}
+.item {
+  background-color: red;
+  padding-left: 3rem;
+  width: 100%;
+}

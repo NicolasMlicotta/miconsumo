@@ -1,0 +1,11 @@
+@import "../../utilities/variables.css";
+.wrapper {
+  width: 320px;
+  background-color: white;
+  min-height: calc(100vh - 75px - 1.4rem);
+}
+h4 {
+  font-weight: normal;
+  color: var(--font-primary);
+  text-align: center;
+}

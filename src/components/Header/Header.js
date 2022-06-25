@@ -11,7 +11,10 @@ function Header() {
       <ul className={styles.headerOptions}>
         <li>disponible: $4200</li>
         <li>
-          <FaShoppingCart size={32} />
+          <div className={styles.shopwrapper}>
+            <FaShoppingCart size={32} />
+            <p> 5 unid.</p>
+          </div>
         </li>
         <li>
           <BsPersonCircle size={32} />

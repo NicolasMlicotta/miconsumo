@@ -11,7 +11,7 @@ function Store() {
       <div className={styles.productsWrapper}>
         <div className={styles.order}>
           <h4 className={styles.bolder}>Ordernar por:</h4>
-          <p>mayor precio</p>
+          <p>Mayor precio</p>
           <MdKeyboardArrowDown
             fontSize={"1.5rem"}
             color={"blue"}

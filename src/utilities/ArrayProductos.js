@@ -1,0 +1,86 @@
+export const productos = [
+  {
+    sku: "7028",
+    precio: 2000,
+    descripcion: "Cerveza Brahma 24un. 473ml",
+    categoria: "cervezas",
+  },
+  {
+    sku: "7028",
+    precio: 2000,
+    descripcion: "Cerveza Brahma 24un. 473ml",
+    categoria: "cervezas",
+  },
+  {
+    sku: "7028",
+    precio: 2000,
+    descripcion: "Cerveza Brahma 24un. 473ml",
+    categoria: "cervezas",
+  },
+  {
+    sku: "7028",
+    precio: 2000,
+    descripcion: "Cerveza Brahma 24un. 473ml",
+    categoria: "cervezas",
+  },
+  {
+    sku: "7028",
+    precio: 2000,
+    descripcion: "Cerveza Brahma 24un. 473ml",
+    categoria: "cervezas",
+  },
+  {
+    sku: "7028",
+    precio: 2000,
+    descripcion: "Cerveza Brahma 24un. 473ml",
+    categoria: "cervezas",
+  },
+  {
+    sku: "7028",
+    precio: 2000,
+    descripcion: "Cerveza Brahma 24un. 473ml",
+    categoria: "cervezas",
+  },
+  {
+    sku: "7028",
+    precio: 2000,
+    descripcion: "Cerveza Brahma 24un. 473ml",
+    categoria: "cervezas",
+  },
+  {
+    sku: "7028",
+    precio: 2000,
+    descripcion: "Cerveza Brahma 24un. 473ml",
+    categoria: "cervezas",
+  },
+  {
+    sku: "7028",
+    precio: 2000,
+    descripcion: "Cerveza Brahma 24un. 473ml",
+    categoria: "cervezas",
+  },
+  {
+    sku: "7028",
+    precio: 2000,
+    descripcion: "Cerveza Brahma 24un. 473ml",
+    categoria: "cervezas",
+  },
+  {
+    sku: "7028",
+    precio: 2000,
+    descripcion: "Cerveza Brahma 24un. 473ml",
+    categoria: "cervezas",
+  },
+  {
+    sku: "7028",
+    precio: 2000,
+    descripcion: "Cerveza Brahma 24un. 473ml",
+    categoria: "cervezas",
+  },
+  {
+    sku: "7028",
+    precio: 2000,
+    descripcion: "Cerveza Brahma 24un. 473ml",
+    categoria: "cervezas",
+  },
+];

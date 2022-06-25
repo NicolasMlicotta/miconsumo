@@ -1,10 +1,10 @@
 import Header from "./components/Header/Header";
-import NavBar from "./components/NavBar/NavBar";
+import Store from "./pages/Store/Store";
 function App() {
   return (
     <div>
       <Header />
-      <NavBar />
+      <Store />
     </div>
   );
 }

@@ -3,6 +3,9 @@
     background-color: white;
     width: 700px;
     padding-block: 1rem;
+    box-shadow: px 4px 5px 2px rgba(0, 0, 0, 0.08);
+    -webkit-box-shadow: 4px 4px 5px 2px rgba(0, 0, 0, 0.08);
+    -moz-box-shadow: px 4px 5px 2px rgba(0, 0, 0, 0.08);
 }
 
 .gridWrapper {

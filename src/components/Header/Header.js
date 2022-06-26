@@ -28,6 +28,11 @@ function Header() {
             <BsPersonCircle size={28} color="black" />
           </CustomLink>
         </li>
+        <li>
+          <CustomLink to="/admin">
+            <p>Admin</p>
+          </CustomLink>
+        </li>
       </ul>
     </div>
   );

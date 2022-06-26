@@ -1,0 +1,9 @@
+.wrapper {
+    background-color: white;
+    padding-block: 1rem;
+    padding-inline: 2rem;
+    border: 1px solid #999999;
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.08);
+    -webkit-box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.08);
+    -moz-box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.08);
+}

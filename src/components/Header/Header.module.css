@@ -12,14 +12,22 @@
 }
 
 h1 {
-    background-color: blue;
+    color: black;
+    line-height: center;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    height: 100%;
 }
 
 ul.headerOptions {
     display: flex;
-    justify-content: space-around;
-    width: 400px;
+    justify-content: space-between;
+    width: 360px;
     align-items: center;
+    height: 100%;
 }
 
 li {
@@ -31,4 +39,25 @@ li {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    color: black;
+}
+
+.cart {
+    top: 0;
+    left: 0;
+}
+
+.quantity {
+    position: relative;
+    left: -10px;
+    bottom: 8px;
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 10px;
+    height: 1.2rem;
+    width: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
 }

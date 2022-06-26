@@ -2,22 +2,31 @@ import styles from "./Header.module.css";
 import { FaShoppingCart } from "react-icons/fa";
 import { BsPersonCircle } from "react-icons/bs";
 import SearchBar from "../SearchBar/SearchBar";
+import CustomLink from "../CustomLink/CustomLink";
 
 function Header() {
   return (
     <div className={styles.wrapper}>
-      <h1>Mi Consumo</h1>
+      <CustomLink to="/">
+        <div className={styles.title}>
+          <h1>Mi Consumo</h1>
+        </div>
+      </CustomLink>
       <SearchBar />
       <ul className={styles.headerOptions}>
         <li>disponible: $4200</li>
         <li>
-          <div className={styles.shopwrapper}>
-            <FaShoppingCart size={32} />
-            <p> 5 unid.</p>
-          </div>
+          <CustomLink to="/shoppingcart">
+            <div className={styles.shopwrapper}>
+              <FaShoppingCart size={32} className={styles.cart} />
+              <p className={styles.quantity}> 5</p>
+            </div>
+          </CustomLink>
         </li>
         <li>
-          <BsPersonCircle size={32} />
+          <CustomLink to="/profile">
+            <BsPersonCircle size={28} color="black" />
+          </CustomLink>
         </li>
       </ul>
     </div>

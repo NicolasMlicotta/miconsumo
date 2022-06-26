@@ -1,0 +1,22 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-inline: auto;
+    align-items: left;
+    width: 400px;
+    background-color: white;
+    padding-inline: 2em;
+    padding-bottom: 1em;
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.08);
+    -webkit-box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.08);
+    -moz-box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.08);
+}
+
+.title {
+    text-align: center;
+    padding-block: 1em;
+}
+
+.text {
+    margin-bottom: 1em;
+}

@@ -2,6 +2,6 @@
     width: 600px;
     margin-inline: auto;
     display: grid;
-    row-gap: 1rem;
     grid-template-columns: 1fr;
+    row-gap: 1rem;
 }

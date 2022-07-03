@@ -1,11 +1,18 @@
 import React from "react";
-import styles from "./SkusHabilitados.module.css";
+import styles from "./Status.module.css";
 import SearchBar from "../../components/SearchBar/SearchBar";
-
-function SkusHabilitados() {
+function Status() {
   return (
-    <div className={styles.wrapper}>
-      <h1>SKUs Habilitados</h1>
+    <div className="wrapper">
+      <h1>Estado de la carga</h1>
+      <header className={styles.status}>
+        <h3 className={styles.t1}>Habilitados</h3>
+        <h3 className={styles.t2}>Cargados</h3>
+        <h3 className={styles.t3}>Restan</h3>
+        <p className={styles.p1}>Habilitados</p>
+        <p className={styles.p2}>Cargados</p>
+        <p className={styles.p3}>Restan</p>
+      </header>
       <span className={styles.top}>
         <SearchBar placeholder={"Buscar SKU"} />
         <select name="categoria" id="categoria">
@@ -34,4 +41,4 @@ function SkusHabilitados() {
   );
 }
 
-export default SkusHabilitados;
+export default Status;

@@ -1,0 +1,14 @@
+.wrapper {
+    width: 600px;
+    margin-inline: auto;
+    display: grid;
+    row-gap: 1rem;
+    grid-template-columns: 1fr;
+    background-color: aquamarine;
+    padding-inline: 1.4rem;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+}

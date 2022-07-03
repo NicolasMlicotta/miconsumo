@@ -6,6 +6,8 @@ import Profile from "./pages/Profile/Profile";
 import Admin from "./pages/Admin/Admin";
 import CargarSkus from "./pages/CargarSkus/CargarSkus";
 import SkusHabilitados from "./pages/SkusHabilitados/SkusHabilitados";
+import Status from "./pages/Status/Status";
+import FinalPicking from "./pages/FinalPicking/FinalPicking";
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
         <Route path="admin" element={<Admin />} />
         <Route path="cargarskus" element={<CargarSkus />} />
         <Route path="skushabilitados" element={<SkusHabilitados />} />
+        <Route path="status" element={<Status />} />
+        <Route path="finalpicking" element={<FinalPicking />} />
       </Routes>
     </div>
   );

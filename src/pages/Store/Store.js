@@ -5,9 +5,43 @@ import Product from "../../components/Product/Product";
 import { MdKeyboardArrowDown } from "react-icons/md";
 import { MdKeyboardArrowUp } from "react-icons/md";
 function Store() {
+  const arrayMenu = [
+    {
+      title: "PROMOS",
+      items: [
+        { text: "primer item", to: "a" },
+        { text: "primer item", to: "a" },
+        { text: "primer item", to: "a" },
+      ],
+    },
+    {
+      title: "CERVEZAS",
+      items: [
+        { text: "primer item", to: "a" },
+        { text: "primer item", to: "a" },
+        { text: "primer item", to: "a" },
+      ],
+    },
+    {
+      title: "GASEOSAS",
+      items: [
+        { text: "primer item", to: "a" },
+        { text: "primer item", to: "a" },
+        { text: "primer item", to: "a" },
+      ],
+    },
+    {
+      title: "AGUAS E ISOTÓNICAS",
+      items: [
+        { text: "primer item", to: "a" },
+        { text: "primer item", to: "a" },
+        { text: "primer item", to: "a" },
+      ],
+    },
+  ];
   return (
     <div className={styles.wrapper}>
-      <NavBar />
+      <NavBar data={arrayMenu} />
       <div className={styles.productsWrapper}>
         <div className={styles.order}>
           <h4 className={styles.bolder}>Ordernar por:</h4>

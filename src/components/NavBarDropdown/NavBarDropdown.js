@@ -1,11 +1,12 @@
 import { RiArrowDownSFill } from "react-icons/ri";
 import { RiArrowDropUpFill } from "react-icons/ri";
 import styles from "./NavBarDropdown.module.css";
-import NavDropDownItem from "./NavDropDownItem";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 function NavBarDropdown(props) {
   const [open, setOpen] = useState(false);
+  const arrayItems = props.items;
   return (
     <div className={styles.wrapper}>
       <div className={styles.category}>
@@ -14,9 +15,13 @@ function NavBarDropdown(props) {
       </div>
       <ul className={styles.items}>
         {/* reemplazar por dropdownitem */}
-        <li className={styles.item}>hola</li>
-        <li className={styles.item}>hola</li>
-        <li className={styles.item}>hola</li>
+        {arrayItems?.map((item, index) => {
+          return (
+            <Link key={item + index} className={styles.item} to={item.to}>
+              {item.text}
+            </Link>
+          );
+        })}
       </ul>
     </div>
   );

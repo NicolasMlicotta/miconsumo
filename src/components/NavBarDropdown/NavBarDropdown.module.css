@@ -1,23 +1,29 @@
 .wrapper {
-  margin-block: 1.5rem;
+    margin-block: 1.5rem;
 }
 
 .category {
-  display: flex;
-  align-items: center;
-  padding-left: 1.5rem;
+    display: flex;
+    align-items: center;
+    padding-left: 1.5rem;
 }
+
 .category:hover {
-  cursor: pointer;
+    cursor: pointer;
 }
+
 h3 {
-  font-weight: 500;
+    font-weight: 500;
 }
+
 .items {
-  list-style-type: none;
+    list-style-type: none;
+    display: grid;
+    grid-column: 1fr;
 }
+
 .item {
-  background-color: red;
-  padding-left: 3rem;
-  width: 100%;
+    background-color: red;
+    padding-left: 3rem;
+    width: 100%;
 }

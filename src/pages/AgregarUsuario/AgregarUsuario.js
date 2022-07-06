@@ -41,6 +41,12 @@ export const AgregarUsuario = () => (
           ) : null}
           <Field name="email" type="email" />
           {errors.email && touched.email ? <div>{errors.email}</div> : null}
+          <Field as="select" name="select">
+            <option value="1">Nico 1</option>
+            <option value="2">Nico 2</option>
+            <option value="3">Nico 3</option>
+            <option value="4">Nico 4</option>
+          </Field>
           <button type="submit">Submit</button>
         </Form>
       )}

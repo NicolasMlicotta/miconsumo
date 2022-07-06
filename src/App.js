@@ -8,6 +8,7 @@ import CargarSkus from "./pages/CargarSkus/CargarSkus";
 import SkusHabilitados from "./pages/SkusHabilitados/SkusHabilitados";
 import Status from "./pages/Status/Status";
 import FinalPicking from "./pages/FinalPicking/FinalPicking";
+import AgregarUsuario from "./pages/AgregarUsuario/AgregarUsuario";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path="skushabilitados" element={<SkusHabilitados />} />
         <Route path="status" element={<Status />} />
         <Route path="finalpicking" element={<FinalPicking />} />
+        <Route path="agregarusuario" element={<AgregarUsuario />} />
       </Routes>
     </div>
   );

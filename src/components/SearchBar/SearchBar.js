@@ -6,7 +6,7 @@ function SearchBar({
   showInput = true,
   width = "40ch",
   placeholder,
-  array = ["corona", "budweiser", "quilmes", "brahma"],
+  array = ["corona", "budweiser", "quilmes", "brahma", "nico"],
 }) {
   const decoration = { width: width };
   const [showBar, setShowBar] = useState(showInput);
@@ -29,26 +29,30 @@ function SearchBar({
   };
   return (
     <div className={styles.wrapper}>
-      {showBar && (
-        <input
-          type="search"
-          className={styles.textInput}
-          placeholder={placeholder ?? "Buscar"}
-          style={decoration}
-          value={searchValue}
-          onChange={handleChange}
+      <span className={styles.box}>
+        {showBar && (
+          <input
+            type="search"
+            className={styles.textInput}
+            placeholder={placeholder ?? "Buscar"}
+            style={decoration}
+            value={searchValue}
+            onChange={handleChange}
+          />
+        )}
+        <AiOutlineSearch
+          size={30}
+          className={styles.searchIcon}
+          onClick={handleSearch}
         />
+      </span>
+      {searchValue != "" && (
+        <ul className={styles.searchItems}>
+          {searchArray.map((val, index) => (
+            <li key={index}>{val}</li>
+          ))}
+        </ul>
       )}
-      <AiOutlineSearch
-        size={30}
-        className={styles.searchIcon}
-        onClick={handleSearch}
-      />
-      <ul>
-        {searchArray.map((val, index) => (
-          <li key={index}>{val}</li>
-        ))}
-      </ul>
     </div>
   );
 }

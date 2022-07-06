@@ -14,7 +14,7 @@ function Header() {
       </CustomLink>
       <SearchBar />
       <ul className={styles.headerOptions}>
-        <li>disponible: $4200</li>
+        <li>Disponible: $4200</li>
         <li>
           <CustomLink to="/shoppingcart">
             <div className={styles.shopwrapper}>
